@@ -1,9 +1,9 @@
-01.개요
+<!-- 01.개요
 02. 개발 환경
 03. db구조/구성
 04. work-flow
 05. 추가설명 테스트
-06. 프로젝트 시연 -> 동영상.
+06. 프로젝트 시연 -> 동영상. -->
 
 
 
@@ -12,21 +12,14 @@
 
 1. 프로젝트 개요
      JSP/Servlet , OracleDB(sql)을 이용. 기본 CRUD(Create Read Update Delete)가 작동하는 홈페이지 구현 
-- 네이버, 네이버 카페 참조
+     - 네이버, 네이버 카페 참조
 
 2. 프로젝트 환경
-     java  1.8 (Jdk. 1.8)
-     Oracle  11g
-     apache-tomcat-8.5.78
-     eclipse  2021-06
+    <br> java  1.8 (Jdk. 1.8)
+    <br> Oracle  11g
+    <br> apache-tomcat-8.5.78
+    <br> eclipse  2021-06
      
-2-1. db구성
-    테이블명 sql문 ~ 
-    
-    
-    
-    
-
 3 . 프로젝트 사용법
      A.  sql문을 사용하여 db에 테이블 생성
      B.  index.jsp 부터 실행하여 회원가입 진행.
