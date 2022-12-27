@@ -46,12 +46,13 @@
 
 ## 프로젝트 결과물 영상
 
+     
 # 1. 회원가입
-![naver_signup_pr](https://user-images.githubusercontent.com/96656259/209602408-d14921ac-1e44-4511-8450-52d9da75eab8.gif)
+![cla_signup](https://user-images.githubusercontent.com/96656259/209615206-0bb6ff91-b199-4138-a6ba-1ec8412cf7c4.gif)
 
 
 # 2. 로그인 로그아웃
-![naver_loginout](https://user-images.githubusercontent.com/96656259/209602507-9218ef8a-d276-46ac-9f5c-e5322592d599.gif)
+![board_loginout](https://user-images.githubusercontent.com/96656259/209615201-65a9a903-42e5-4a07-aacc-7c0477fffc68.gif)
 
 
 # 3. 유저정보 수정
@@ -59,10 +60,10 @@
 
 
 # 4. 게시판 등록 확인
-![naver_boardPost](https://user-images.githubusercontent.com/96656259/209602527-434b60e7-b754-45c9-8025-73f86f8e43c4.gif)
+![board_post](https://user-images.githubusercontent.com/96656259/209615204-10089971-aaa4-4ce6-bb55-f693bdf70e0c.gif)
 
 
 # 5. 게시판 수정 삭제
-![naver_boardPostUPdateDelete](https://user-images.githubusercontent.com/96656259/209602519-029528e4-c334-45ae-935b-d34b6b86dde6.gif)
+![board_UpdateDelete](https://user-images.githubusercontent.com/96656259/209615205-816d71ca-a5e0-4f06-badb-9e0b6a3460f2.gif)
 </div>
      
