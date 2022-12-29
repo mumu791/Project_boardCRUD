@@ -31,15 +31,19 @@ public class LoginCtrl extends HttpServlet {
 		
 		UserDAO udao = new UserDAO();
 		String pass = udao.getPass(id);
-		
 		PrintWriter out = response.getWriter();
-		if(pass.equals(password)) {
-			HttpSession session = request.getSession();
-			session.setAttribute("id", id);
-			out.println("<script>alert('로그인 성공'); location.href='index.jsp';</script>");
+		
+		if(pass == null) {
+			out.println("<script>alert('아이디가 없습니다..'); history.back(-1);</script>");
 		}else {
-			out.println("<script>alert('비밀번호오류 다시 입력해주세요'); history.back(-1);</script>");
+			if(pass.equals(password)) {
+				HttpSession session = request.getSession();
+				session.setAttribute("id", id);
+				out.println("<script>alert('로그인 성공.'); location.href='index.jsp';</script>");
+			}else {
+				out.println("<script>alert('비밀번호오류 다시 입력해주세요'); history.back(-1);</script>");
+			}
 		}
+		
 	}
-
 }
